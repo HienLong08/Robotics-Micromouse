@@ -1,0 +1,10 @@
+Robotics Competition Rules
+1. Robot Design and Assembly
+- Each team must independently design and assemble its own robot.
+2. Hardware and Component Regulations
+- Commercial modules such as STM32 Blackpill and TB6612FNG are permitted.
+- Teams are also allowed to design and manufacture their own electronic circuits.
+- If sample PCBs or open-source software are used, their origins must be disclosed and relevant documentation must be submitted to the Organizing Committee.
+3. Communication and External Connectivity
+- Wireless communication is prohibited.
+- Connecting to external devices to control the robot is prohibited.
