@@ -1,0 +1,16 @@
+#include <Alphabot.h>
+
+AlphaBot Ferrari = AlphaBot();
+
+void setup()
+{
+    Ferrari.SetSpeed(100);
+}
+
+void loop()
+{
+    Ferrari.Left(1000); #Turn Left
+    Ferrari.Right(1000); #Turn Right
+    Ferrari.Backward(1000); #Go Backward
+    Ferrari.Forward(1000); #Go Forward
+}
