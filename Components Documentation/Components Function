@@ -1,0 +1,36 @@
+*English
+1. STM32F103C8T6 Black Pill Microcontroller: like the central brain, reads the distance sensor to detect walls, processes wheelencoder data for precise positioning, and uses PWM with PID control to manage motor speed, steering, and sharp turns
+2. ST-Link V2 Programmer: a hardware tool used to program (flash) code into STM32 microcontrollers and debug it in real-time (set breakpoints, inspect variables) via the SWD interface.
+3. N20 DC Geared Motors with Encoders: drives compact robots with accurate speed and position feedback.
+4. TB6612FNG Dual H-Bridge Motor Driver: controls the speed, direction (forward/reverse), and braking of two DC motors independently using PWM signals from the STM32 microcontroller.
+5. Infrared (IR) Sensor Modules: determine the walls and mapping
+6. MP1584EN DC-DC Buck Converter: regulates higher battery voltage down to a clean 5V or 3.3V rail to safely power.
+7. 7.4V 2S LiPo Battery: powering the micromouse
+8. Acrylic Robot Chassis: like the bone of micromouse
+9. Rubber-Coated Plastic Wheels: Micromouse movement
+10. Perforated PCB Board: the main distribution board (connecting the STM32 Black Pill, MP1584EN buck converter, and motor driver) and a lightweight structural chassis for compact DIY robots.
+11. Dupont Jumper Wires: connect sensors, modules, and the microcontroller together for signal transmission and power distribution.
+12. Power Switch: turns the main power supply from the battery to the robot on and off safely.
+13. Battery Connector (T-Plug/JST): provides a secure, detachable connection between the LiPo battery and the main power circuit.
+14. Reverse Polarity Protection Diode: prevents current from flowing backward if the battery is connected incorrectly, protecting the STM32 and sensors from burning out.
+15. Power Indicator LED: lights up when the circuit is powered on, giving a quick visual check of the robot's power status.
+16. Copper Standoffs and Screws: securely mount and stack the PCB boards and chassis layers while maintaining proper spacing.
+17. USB Cable and Female-to-Female Dupont Wires: connect the ST-Link V2 programmer to the computer and the STM32 Black Pill for flashing code and debugging.
+
+*Vietnamese
+1. Vi điều khiển STM32F103C8T6 Black Pill: Đóng vai trò là bộ não trung tâm của robot, đọc dữ liệu từ cảm biến để phát hiện tường, xử lý dữ liệu encoder để xác định vị trí và điều khiển tốc độ động cơ thông qua PWM kết hợp thuật toán PID.
+2. Mạch nạp ST-Link V2: Dùng để nạp chương trình vào vi điều khiển STM32 và hỗ trợ gỡ lỗi thông qua giao tiếp SWD.
+3. Động cơ giảm tốc DC N20 kèm Encoder: Cung cấp chuyển động cho robot, đồng thời gửi dữ liệu phản hồi về tốc độ và vị trí quay của bánh xe.
+4. Mạch điều khiển động cơ cầu H kép TB6612FNG: Điều khiển độc lập tốc độ, chiều quay (tiến/lùi) và trạng thái phanh của hai động cơ DC thông qua tín hiệu PWM từ STM32.
+5. Các mô-đun cảm biến hồng ngoại (IR): Phát hiện tường, xác định khoảng cách tương đối và hỗ trợ robot lập bản đồ mê cung.6. Mạch hạ áp MP1584EN DC-DC Buck: Chuyển đổi điện áp từ pin xuống mức 5V hoặc 3.3V phù hợp để cấp nguồn cho các linh kiện điện tử.
+7. Pin LiPo 2S 7.4V: Cung cấp nguồn điện chính cho toàn bộ robot Micromouse.
+8. Khung xe robot bằng mica (Acrylic): Là bộ khung chịu lực, dùng để lắp đặt và cố định các linh kiện của robot.
+9. Bánh xe nhựa bọc cao su: Giúp robot di chuyển và tăng độ bám với bề mặt đường.
+10. Bo mạch đục lỗ (Perforated PCB): Dùng để kết nối các linh kiện như STM32, mạch hạ áp và mạch điều khiển động cơ, đồng thời tạo nền tảng lắp ráp phần cứng cho robot.
+11. Dây cắm Dupont: Kết nối cảm biến, mô-đun và vi điều khiển để truyền tín hiệu và cấp nguồn.
+12. Công tắc nguồn: Dùng để bật/tắt nguồn điện chính của robot.
+13. Giắc nối pin (T-Plug/JST): Tạo kết nối điện chắc chắn và có thể tháo rời giữa pin LiPo với mạch nguồn của robot.
+14. Diode chống ngược cực: Bảo vệ mạch điện khi pin bị kết nối ngược cực, hạn chế nguy cơ hư hỏng linh kiện.
+15. Đèn LED báo nguồn: Hiển thị trạng thái cấp nguồn, giúp người dùng dễ dàng kiểm tra robot đã được cấp điện hay chưa.
+16. Trụ đồng và ốc vít: Dùng để cố định, liên kết các bo mạch PCB và các tầng khung xe, đồng thời tạo khoảng cách giữa các tầng.
+17. Cáp USB và dây Dupont cái-cái (Female-to-Female): Dùng để kết nối mạch nạp ST-Link V2 với máy tính và vi điều khiển STM32 Black Pill, phục vụ việc nạp chương trình và gỡ lỗi.
